@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsFilmek" targetNamespace="http://tempuri.org/dsFilmek.xsd" xmlns:mstns="http://tempuri.org/dsFilmek.xsd" xmlns="http://tempuri.org/dsFilmek.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsFilmek" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsFilmek" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsFilmek">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtFilm" msprop:Generator_RowClassName="dtFilmRow" msprop:Generator_RowEvHandlerName="dtFilmRowChangeEventHandler" msprop:Generator_RowDeletedName="dtFilmRowDeleted" msprop:Generator_RowDeletingName="dtFilmRowDeleting" msprop:Generator_RowEvArgName="dtFilmRowChangeEvent" msprop:Generator_TablePropName="dtFilm" msprop:Generator_RowChangedName="dtFilmRowChanged" msprop:Generator_UserTableName="dtFilm" msprop:Generator_RowChangingName="dtFilmRowChanging" msprop:Generator_TableClassName="dtFilmDataTable" msprop:Generator_TableVarName="tabledtFilm">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:int" />
+              <xs:element name="Cím" msprop:Generator_UserColumnName="Cím" msprop:Generator_ColumnPropNameInTable="CímColumn" msprop:Generator_ColumnPropNameInRow="Cím" msprop:Generator_ColumnVarNameInTable="columnCím" type="xs:string" minOccurs="0" />
+              <xs:element name="Megjelenés" msprop:Generator_UserColumnName="Megjelenés" msprop:Generator_ColumnPropNameInTable="MegjelenésColumn" msprop:Generator_ColumnPropNameInRow="Megjelenés" msprop:Generator_ColumnVarNameInTable="columnMegjelenés" type="xs:string" minOccurs="0" />
+              <xs:element name="Rendező" msprop:Generator_UserColumnName="Rendező" msprop:Generator_ColumnPropNameInTable="RendezőColumn" msprop:Generator_ColumnPropNameInRow="Rendező" msprop:Generator_ColumnVarNameInTable="columnRendező" type="xs:string" minOccurs="0" />
+              <xs:element name="Író" msprop:Generator_UserColumnName="Író" msprop:Generator_ColumnPropNameInTable="ÍróColumn" msprop:Generator_ColumnPropNameInRow="Író" msprop:Generator_ColumnVarNameInTable="columnÍró" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSzinesz" msprop:Generator_RowClassName="dtSzineszRow" msprop:Generator_RowEvHandlerName="dtSzineszRowChangeEventHandler" msprop:Generator_RowDeletedName="dtSzineszRowDeleted" msprop:Generator_RowDeletingName="dtSzineszRowDeleting" msprop:Generator_RowEvArgName="dtSzineszRowChangeEvent" msprop:Generator_TablePropName="dtSzinesz" msprop:Generator_RowChangedName="dtSzineszRowChanged" msprop:Generator_UserTableName="dtSzinesz" msprop:Generator_RowChangingName="dtSzineszRowChanging" msprop:Generator_TableClassName="dtSzineszDataTable" msprop:Generator_TableVarName="tabledtSzinesz">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:int" />
+              <xs:element name="Név" msprop:Generator_UserColumnName="Név" msprop:Generator_ColumnPropNameInTable="NévColumn" msprop:Generator_ColumnPropNameInRow="Név" msprop:Generator_ColumnVarNameInTable="columnNév" type="xs:string" minOccurs="0" />
+              <xs:element name="Születés" msprop:Generator_UserColumnName="Születés" msprop:Generator_ColumnPropNameInTable="SzületésColumn" msprop:Generator_ColumnPropNameInRow="Születés" msprop:Generator_ColumnVarNameInTable="columnSzületés" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtFSz" msprop:Generator_RowClassName="dtFSzRow" msprop:Generator_RowEvHandlerName="dtFSzRowChangeEventHandler" msprop:Generator_RowDeletedName="dtFSzRowDeleted" msprop:Generator_RowDeletingName="dtFSzRowDeleting" msprop:Generator_RowEvArgName="dtFSzRowChangeEvent" msprop:Generator_TablePropName="dtFSz" msprop:Generator_RowChangedName="dtFSzRowChanged" msprop:Generator_UserTableName="dtFSz" msprop:Generator_RowChangingName="dtFSzRowChanging" msprop:Generator_TableClassName="dtFSzDataTable" msprop:Generator_TableVarName="tabledtFSz">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdFilm" msprop:Generator_UserColumnName="IdFilm" msprop:Generator_ColumnPropNameInTable="IdFilmColumn" msprop:Generator_ColumnPropNameInRow="IdFilm" msprop:Generator_ColumnVarNameInTable="columnIdFilm" type="xs:int" minOccurs="0" />
+              <xs:element name="IdSzínész" msprop:Generator_UserColumnName="IdSzínész" msprop:Generator_ColumnPropNameInTable="IdSzínészColumn" msprop:Generator_ColumnPropNameInRow="IdSzínész" msprop:Generator_ColumnVarNameInTable="columnIdSzínész" type="xs:int" minOccurs="0" />
+              <xs:element name="IdMűfaj" msprop:Generator_ColumnPropNameInRow="IdMűfaj" msprop:Generator_ColumnPropNameInTable="IdMűfajColumn" msprop:Generator_ColumnVarNameInTable="columnIdMűfaj" msprop:Generator_UserColumnName="IdMűfaj" type="xs:int" minOccurs="0" />
+              <xs:element name="IdNyelv" msprop:Generator_ColumnPropNameInRow="IdNyelv" msprop:Generator_ColumnPropNameInTable="IdNyelvColumn" msprop:Generator_ColumnVarNameInTable="columnIdNyelv" msprop:Generator_UserColumnName="IdNyelv" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtMufaj" msprop:Generator_RowEvHandlerName="dtMufajRowChangeEventHandler" msprop:Generator_RowDeletedName="dtMufajRowDeleted" msprop:Generator_RowDeletingName="dtMufajRowDeleting" msprop:Generator_RowEvArgName="dtMufajRowChangeEvent" msprop:Generator_TablePropName="dtMufaj" msprop:Generator_RowChangedName="dtMufajRowChanged" msprop:Generator_RowChangingName="dtMufajRowChanging" msprop:Generator_TableClassName="dtMufajDataTable" msprop:Generator_RowClassName="dtMufajRow" msprop:Generator_TableVarName="tabledtMufaj" msprop:Generator_UserTableName="dtMufaj">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="Műfaj" msprop:Generator_ColumnPropNameInRow="Műfaj" msprop:Generator_ColumnPropNameInTable="MűfajColumn" msprop:Generator_ColumnVarNameInTable="columnMűfaj" msprop:Generator_UserColumnName="Műfaj" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtNyelv" msprop:Generator_RowEvHandlerName="dtNyelvRowChangeEventHandler" msprop:Generator_RowDeletedName="dtNyelvRowDeleted" msprop:Generator_RowDeletingName="dtNyelvRowDeleting" msprop:Generator_RowEvArgName="dtNyelvRowChangeEvent" msprop:Generator_TablePropName="dtNyelv" msprop:Generator_RowChangedName="dtNyelvRowChanged" msprop:Generator_RowChangingName="dtNyelvRowChanging" msprop:Generator_TableClassName="dtNyelvDataTable" msprop:Generator_RowClassName="dtNyelvRow" msprop:Generator_TableVarName="tabledtNyelv" msprop:Generator_UserTableName="dtNyelv">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="Nyelv" msprop:Generator_ColumnPropNameInRow="Nyelv" msprop:Generator_ColumnPropNameInTable="NyelvColumn" msprop:Generator_ColumnVarNameInTable="columnNyelv" msprop:Generator_UserColumnName="Nyelv" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtFilm" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="dtSzinesz_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtSzinesz" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="dtMufaj_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtMufaj" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="dtNyelv_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtNyelv" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:keyref name="FK_dtNyelv_dtFSz" refer="dtNyelv_Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:dtFSz" />
+      <xs:field xpath="mstns:IdNyelv" />
+    </xs:keyref>
+    <xs:keyref name="FK_dtMufaj_dtFSz" refer="dtMufaj_Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:dtFSz" />
+      <xs:field xpath="mstns:IdMűfaj" />
+    </xs:keyref>
+    <xs:keyref name="FK_dtFilm_dtFSz" refer="Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:dtFSz" />
+      <xs:field xpath="mstns:IdFilm" />
+    </xs:keyref>
+    <xs:keyref name="FK_dtSzinesz_dtFSz" refer="dtSzinesz_Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:dtFSz" />
+      <xs:field xpath="mstns:IdSzínész" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>
